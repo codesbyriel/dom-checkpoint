@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting</title>
+    <link rel="stylesheet" href="BA.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script defer src="BA.js"></script>
+</head>
+
+<body class="theme-light">
+    <div class="light-circle"></div>
+    <div class="dark-circle"></div>
+    <div class="themes">
+        <div class="light-mode">
+            <span id="light" class="material-symbols-outlined">
+                light_mode
+            </span>
+        </div>
+
+        <div class="dark-mode">
+            <span id="dark" class="material-symbols-outlined">
+                dark_mode
+            </span>
+        </div>
+    </div>
+
+    <div class="MenuWrap">
+        <div class="inputField">
+            <div class="budgetTab">
+                <h4>Budget</h4>
+                <input type="number" name="" class="budget-input" placeholder="Enter Total Amount">
+                <button class="budget-submit">Set Budget</button>
+            </div>
+
+            <div class="expenseTab">
+                <h4>Expenses</h4>
+                <div class="userInput">
+                    <input name="" class="product-title" placeholder="Enter Title of Product">
+                    <input type="number" name="" class="product-cost" placeholder="Enter Cost of Product">
+                    <button class="check-amount">Check Amount</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="totesMenu">
+            <div class="toteBudget">
+            </div>
+
+            <div class="ExpBudget">
+            </div>
+
+            <div class="BalBudget">
+            </div>
+        </div>
+
+        <div class="expenses">
+            <h4>Expense List</h4>
+            <div class="expenseDetails">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
